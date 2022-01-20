@@ -38,3 +38,8 @@ footer{
 
     background-color: #901cad;
 }
+
+.site-footer{
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
