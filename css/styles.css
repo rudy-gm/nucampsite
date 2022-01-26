@@ -50,3 +50,9 @@ footer{
     top: -5px;
     left: -5px;
 }
+
+.tab-content{
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-top: none;
+}
