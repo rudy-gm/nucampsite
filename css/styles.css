@@ -24,7 +24,7 @@ footer{
 
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    background-image: linear-gradient(to right, #37d2dd, #3e8f5d, #d9db48);
     color: white;
 }
 
@@ -36,7 +36,7 @@ footer{
 
 .navbar{
 
-    background-color: #901cad;
+    background-color: #36d6c9;
 }
 
 .site-footer{
@@ -72,5 +72,166 @@ a, a:hover{
 
 .carousel{
 
-    border: solid #5637dd;
+    border: solid #5637DD;
+}
+
+/* Image Card Hover Effect */
+
+/* 1st card */
+.card-hover1{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+    margin: 20px;
+}
+
+.card-hover1 .img-card-hover1{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 20px ;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+
+
+}
+
+.card-hover1:hover .img-card-hover1{
+    margin-top: -30px;
+
+
+}
+
+.card-hover1:hover{
+    width: 160px;
+}
+
+.card-hover1::before{
+    content: 'NuCamp Fire';
+    letter-spacing: 0.1em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: 100;
+
+}
+
+/* 2nd card */ 
+
+.card-hover2{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+    margin: 20px;
+}
+
+
+.card-hover2 .img-card-hover2{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px ;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+
+
+}
+
+.card-hover2:hover .img-card-hover2{
+    margin-top: -30px;
+
+
+}
+
+.card-hover2:hover{
+    width: 160px;
+}
+
+.card-hover2::before{
+    content: 'NuCamp Lake';
+    letter-spacing: 0.1em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: 100;
+
+}
+
+/* 3rd Card */
+
+.card-hover3{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+    margin: 20px;
+}
+
+.card-hover3 .img-card-hover3{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 20px ;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+
+
+}
+
+.card-hover3:hover .img-card-hover3{
+    margin-top: -30px;
+
+
+}
+
+.card-hover3:hover{
+    width: 160px;
+}
+
+.card-hover3::before{
+    content: 'Bootstrap Icon';
+    letter-spacing: 0.1em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: 100;
+
+}
+
+/* Login Button */ 
+
+.loginbutton{
+    border: solid white 3px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 2px;
+
+}
+
+.loginbutton:hover{
+    transform: scale(1.1);
 }
