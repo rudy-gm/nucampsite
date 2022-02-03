@@ -1,0 +1,257 @@
+$color-primary: #3046C5;
+$color-secondary: #5637dd;
+$color-pale: #CEC8FF;
+$color-mid: #901CAD;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+
+body{
+    font-family: $body-font; 
+
+}
+
+h1,h2,h3{
+    font-family: $header-font; 
+
+}
+
+h2{
+    color: $color-primary;
+}
+
+header{
+     h2{
+    color: $color-pale;
+}
+}
+
+footer{
+    background-image: linear-gradient(#cec8ff, white);
+}
+
+.jumbotron{
+
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: white;
+}
+
+.row-content{
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar{
+
+    background-color: $color-mid;
+}
+
+.site-footer{
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
+
+.double-effect:hover{
+
+    box-shadow: 10px 10px 0px gray;
+    top: -5px;
+    left: -5px;
+}
+
+.tab-content{
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-top: none;
+}
+
+a, a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.rotate{
+    transform: rotate(0deg);
+}
+
+.carousel-caption{
+    background-color: $color-black-transparent;
+}
+
+.carousel{
+
+    border: solid $color-secondary;
+}
+
+/* Image Card Hover Effect */
+
+/* 1st card */
+.card-hover1{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+    margin: 20px;
+}
+
+.card-hover1 .img-card-hover1{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 20px ;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+
+
+}
+
+.card-hover1:hover .img-card-hover1{
+    margin-top: -30px;
+
+
+}
+
+.card-hover1:hover{
+    width: 160px;
+}
+
+.card-hover1::before{
+    content: 'NuCamp Fire';
+    letter-spacing: 0.1em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: 100;
+
+}
+
+/* 2nd card */ 
+
+.card-hover2{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+    margin: 20px;
+}
+
+
+.card-hover2 .img-card-hover2{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px ;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+
+
+}
+
+.card-hover2:hover .img-card-hover2{
+    margin-top: -30px;
+
+
+}
+
+.card-hover2:hover{
+    width: 160px;
+}
+
+.card-hover2::before{
+    content: 'NuCamp Lake';
+    letter-spacing: 0.1em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: 100;
+
+}
+
+/* 3rd Card */
+
+.card-hover3{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+    margin: 20px;
+}
+
+.card-hover3 .img-card-hover3{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 20px ;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+
+
+}
+
+.card-hover3:hover .img-card-hover3{
+    margin-top: -30px;
+
+
+}
+
+.card-hover3:hover{
+    width: 160px;
+}
+
+.card-hover3::before{
+    content: 'Bootstrap Icon';
+    letter-spacing: 0.1em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: 100;
+
+}
+
+/* Login Button */ 
+
+.loginbutton{
+    border: solid white 3px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 2px;
+
+}
+
+.loginbutton:hover{
+    transform: scale(1.1);
+}
+
+#carouselButton{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
