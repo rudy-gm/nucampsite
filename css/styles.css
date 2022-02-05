@@ -180,3 +180,13 @@ a, a:hover {
   right: 0;
   bottom: 0;
   z-index: 100; }
+
+/* Reserve Modal */
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+/* Login Modal */
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }

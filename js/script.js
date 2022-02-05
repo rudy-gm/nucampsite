@@ -17,8 +17,26 @@ $(function(){
         }
     })
 })
-//-------------------------------------------------------//
 
+
+// jquery for reserve modal:
+
+$(function(){
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal("show")
+    });
+});
+
+
+
+
+//jquery for login modal:
+
+$(function(){
+    $("#loginButton").click(function(){
+        $("#loginModal").modal("show")
+    });
+});
 
 
 
