@@ -1,41 +1,46 @@
 
-//jquery for carousel pause and play buttons:
 
-$(function(){
-    $(".carousel").carousel({interval: 2000});
-    $("#carouselButton").click(function(){
+$(function () {
 
-        if($("#carouselButton").children("i").hasClass("fa-pause")){
+    //jquery for carousel pause and play buttons:
+
+
+    $(".carousel").carousel({ interval: 2000 });
+    $("#carouselButton").click(function () {
+
+        if ($("#carouselButton").children("i").hasClass("fa-pause")) {
             $(".carousel").carousel('pause');
             $("#carouselButton").children("i").removeClass("fa-pause");
             $("#carouselButton").children('i').addClass("fa-play");
         }
-        else{
+        else {
             $(".carousel").carousel('cycle');
             $("#carouselButton").children("i").removeClass('fa-play');
             $("#carouselButton").children('i').addClass('fa-pause');
         }
     })
-})
 
 
-// jquery for reserve modal:
 
-$(function(){
-    $("#reserveButton").click(function(){
+    // jquery for reserve modal:
+
+
+    $("#reserveButton").click(function () {
         $("#reserveModal").modal("show")
     });
-});
 
 
 
 
-//jquery for login modal:
 
-$(function(){
-    $("#loginButton").click(function(){
+    //jquery for login modal:
+
+
+    $("#loginButton").click(function () {
         $("#loginModal").modal("show")
     });
+
+
 });
 
 
